@@ -23,8 +23,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Day3.csproj" />
       <ProjectReference Include="..\Day3\Day3.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="testInput.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
